@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BRaidSkin>
+  <version>1.0</version>
+  <name>Pirates of the Burning Sea</name>
+  <notes>Default Skin for POTBS</notes>
+  <author>Royal O'Brien</author>
+  <snapshot>potbs.png</snapshot>
+  <SkinData>
+    <windowname>MainMsgDialog</windowname>
+    <windowrect>"0,0,761,340"</windowrect>
+    <windowtitlename>Pirates of the Burning Sea</windowtitlename>
+    <titlebarregion>"0,0,552,210"</titlebarregion>
+    <background>"potbs.png"</background>
+    <Objects>
+      <MinimizeButton Type="button" Function="msgdlg_minimize_btn" imgSet="gel.png" hpos="641" vpos="64"/>
+      <CloseButton Type="button" Function="msgdlg_close_btn" imgSet="gel.png" hpos="659" vpos="64"/>
+
+      <RelaunchButton Type="button" Function="msgdlg_relaunch_btn" imgSet="playgame.png" hpos="130" vpos="150"/>
+      <StatusText Type="textbox" Function="msgdlg_status_txt" rect="357,127,648,176" Textcolor="255,255,255" fontsize="7" fontname="arial" multiline=""/>
+
+      <Progress1Bar Type="progress" Function="msgdlg_1stprogress_prg" rect="28,204,680,214" Textcolor="0,192,192" fontsize="10" fontitalic="" fontname="arial" fontbold="10" smooth=""/>
+      <Progress2Bar Type="progress" Function="msgdlg_2ndprogress_prg" rect="28,243,680,253" Textcolor="128,192,192" fontsize="10" fontitalic="" fontname="arial" fontbold="10" smooth=""/>
+
+      <Progress1Label Type="label" Function="msgdlg_1stprogress_lbl" rect="32,183,240,204" Textcolor="255,255,255" fontsize="11" fontname="arial" fontbold="1000" text="Progress" backcolor="64,32,8"/>
+      <Progress2Label Type="label" Function="msgdlg_2ndprogress_lbl" rect="32,222,240,244" Textcolor="255,255,255" fontsize="11" fontname="arial" fontbold="1000" text="Total" backcolor="64,32,8"/>
+
+      <Progress1Value Type="label" Function="msgdlg_1stprogressval_lbl" rect="250,182,440,203" Textcolor="255,255,255" fontsize="12" fontname="arial" fontbold="1000" textalign="H" text="0%" backcolor="128,128,128"/>
+      <Progress2Value Type="label" Function="msgdlg_2ndprogressval_lbl" rect="250,221,440,243" Textcolor="255,255,255" fontsize="12" fontname="arial" fontbold="1000" textalign="H" text="0%" backcolor="128,128,128"/>
+      <Progress3Value Type="label" Function="msgdlg_3rdprogressval_lbl" rect="450,182,680,203" Textcolor="255,255,255" fontsize="12" fontname="arial" fontbold="1000" textalign="R" text="" backcolor="128,128,128"/>
+    </Objects>
+  </SkinData>
+</BRaidSkin>
